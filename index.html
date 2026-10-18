@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SkillMate | تعلّم • شارك • انمو</title>
+    <meta
+      name="description"
+      content="منصة رقمية تتيح للشباب تبادل المهارات والخبرات بدل الاعتماد على المال فقط."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a href="#home" class="brand" aria-label="SkillMate">
+          <svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true">
+            <path
+              d="M10 30a22 22 0 0 1 38-14"
+              fill="none"
+              stroke="#1f4fbf"
+              stroke-width="5"
+              stroke-linecap="round"
+            />
+            <path
+              d="M54 34a22 22 0 0 1-38 14"
+              fill="none"
+              stroke="#e8a72c"
+              stroke-width="5"
+              stroke-linecap="round"
+            />
+            <path d="M32 20 14 29l18 9 18-9z" fill="#1b2a6b" />
+            <path d="M22 35v8c6 5 14 5 20 0v-8l-10 5z" fill="#1b2a6b" />
+          </svg>
+          <span>Skill</span><span>Mate</span>
+        </a>
+        <ul id="menu">
+          <li><a href="#about">عن المنصة</a></li>
+          <li><a href="#how">كيف تعمل</a></li>
+          <li><a href="#value">لماذا SkillMate</a></li>
+          <li><a href="#who">من نحن</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+        <a href="#signup" class="btn btn-primary">سجّل الآن</a>
+        <button class="burger" id="burger" aria-label="القائمة">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div>
+            <span class="tagline">Learn • Share • Grow</span>
+            <h1>علّم اللي تعرفه، وتعلّم اللي <em>نفسك فيه</em></h1>
+            <p>
+              SkillMate منصة رقمية تتيح للشباب تبادل المهارات والخبرات مع بعض،
+              من غير ما تعتمد على الفلوس فقط. عندك مهارة؟ شاركها. عايز تتعلم؟
+              هنوصلك بالشريك المناسب.
+            </p>
+            <div class="hero-actions">
+              <a href="#signup" class="btn btn-primary">ابدأ رحلتك</a>
+              <a href="#how" class="btn btn-ghost">اعرف أكتر</a>
+            </div>
+            <div class="stats">
+              <div>3 خطوات<small>لبدء التبادل</small></div>
+              <div>+4 مجالات<small>برمجة، تصميم، لغات، تسويق</small></div>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 320 320">
+              <circle cx="160" cy="160" r="150" fill="#fff" />
+              <circle
+                cx="160"
+                cy="160"
+                r="150"
+                fill="none"
+                stroke="#dbe8f5"
+                stroke-width="3"
+                stroke-dasharray="6 10"
+              />
+              <path
+                d="M70 140a95 95 0 0 1 150-55"
+                fill="none"
+                stroke="#1f4fbf"
+                stroke-width="14"
+                stroke-linecap="round"
+              />
+              <path d="m226 62 4 36-34-10z" fill="#1f4fbf" />
+              <path
+                d="M250 180a95 95 0 0 1-150 55"
+                fill="none"
+                stroke="#e8a72c"
+                stroke-width="14"
+                stroke-linecap="round"
+              />
+              <path d="m94 258-4-36 34 10z" fill="#e8a72c" />
+              <circle cx="82" cy="150" r="22" fill="#1f4fbf" />
+              <circle cx="238" cy="170" r="22" fill="#14a3a0" />
+              <path d="M160 108 98 138l62 30 62-30z" fill="#1b2a6b" />
+              <path
+                d="M126 158v26c20 18 48 18 68 0v-26l-34 17z"
+                fill="#1b2a6b"
+              />
+              <path
+                d="M222 138v30"
+                stroke="#e8a72c"
+                stroke-width="5"
+                stroke-linecap="round"
+              />
+              <g stroke="#e8a72c" stroke-width="5" stroke-linecap="round">
+                <path d="M160 80v-14M138 88l-8-10M182 88l8-10" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>ماذا نقدّم؟</h2>
+            <div class="bar"></div>
+          </div>
+          <p class="about-box reveal">
+            منصة رقمية تتيح للشباب تبادل المهارات والخبرات من خلال تقديم مهارة
+            يمتلكها المستخدم مقابل تعلّم مهارة أخرى يحتاج إليها، مثل التصميم
+            والبرمجة واللغات والتسويق. تهدف المنصة إلى دعم التعلّم التعاوني
+            وتطوير المهارات وتوسيع العلاقات المهنية، دون الاعتماد الكامل على
+            النفع النقدي.
+          </p>
+          <div class="skills reveal">
+            <span class="chip">🎨 التصميم</span
+            ><span class="chip">💻 البرمجة</span>
+            <span class="chip">🌍 اللغات</span
+            ><span class="chip">📣 التسويق</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="how">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>كيف تعمل المنصة؟</h2>
+            <p>ثلاث خطوات بسيطة بس</p>
+            <div class="bar"></div>
+          </div>
+          <div class="grid g3 steps">
+            <article class="card step reveal">
+              <div class="num">1</div>
+              <h3>أنشئ حسابك</h3>
+              <p>
+                سجّل حسابك الشخصي وحدد المهارات اللي بتملكها والمهارات اللي نفسك
+                تتعلمها.
+              </p>
+            </article>
+            <article class="card step reveal">
+              <div class="num">2</div>
+              <h3>اعثر على شريكك</h3>
+              <p>
+                بنربطك بشريك التعلّم المناسب حسب احتياجاتك ومهاراتك، وتقدر
+                تتواصل معاه عبر المنصة.
+              </p>
+            </article>
+            <article class="card step reveal">
+              <div class="num">3</div>
+              <h3>تبادل وقيّم</h3>
+              <p>
+                تبادلوا المهارات واستفيدوا من نظام التقييم والمتابعة اللي بيعزز
+                الثقة وجودة التبادل.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="value" id="value">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>لماذا SkillMate؟</h2>
+            <p>قيمة حقيقية لكل شاب</p>
+            <div class="bar"></div>
+          </div>
+          <div class="grid g4">
+            <article class="card reveal">
+              <div class="icon">💸</div>
+              <h3>تكلفة أقل</h3>
+              <p>تخفّض تكلفة التعلّم على الشباب.</p>
+            </article>
+            <article class="card reveal">
+              <div class="icon">🚀</div>
+              <h3>مهارات جديدة</h3>
+              <p>تساعدك على اكتساب مهارات جديدة بسهولة.</p>
+            </article>
+            <article class="card reveal">
+              <div class="icon">🤝</div>
+              <h3>شبكة علاقات</h3>
+              <p>تبني لك شبكة علاقات مهنية قوية.</p>
+            </article>
+            <article class="card reveal">
+              <div class="icon">💎</div>
+              <h3>قيمة حقيقية</h3>
+              <p>تحوّل مهاراتك غير المستغلة إلى قيمة حقيقية.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="who" id="who">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>من يقوم بالأنشطة؟</h2>
+            <div class="bar"></div>
+          </div>
+          <div class="grid g3">
+            <article class="card reveal">
+              <div class="icon">⚙️</div>
+              <h3>إدارة المنصة</h3>
+              <p>إدارة وتشغيل المنصة وضمان جودة التجربة.</p>
+            </article>
+            <article class="card reveal">
+              <div class="icon">👥</div>
+              <h3>المستخدمون</h3>
+              <p>مقدّمو ومتعلّمو المهارات، كل واحد معلّم وطالب في نفس الوقت.</p>
+            </article>
+            <article class="card reveal">
+              <div class="icon">🏫</div>
+              <h3>الجامعات والمراكز التدريبية</h3>
+              <p>شركاء يدعمون التعلّم ويفتحون فرصًا أكبر للشباب.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="signup" id="signup">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>انضم لـ SkillMate</h2>
+            <p>سجّل بياناتك وهنتواصل معاك أول ما المنصة تنطلق</p>
+            <div class="bar"></div>
+          </div>
+          <form class="form-wrap reveal" id="form" novalidate>
+            <div class="row2">
+              <div>
+                <label for="name">الاسم</label
+                ><input id="name" required placeholder="اسمك الكامل" />
+              </div>
+              <div>
+                <label for="email">البريد الإلكتروني</label
+                ><input
+                  id="email"
+                  type="email"
+                  required
+                  placeholder="name@example.com"
+                  style="direction: ltr; text-align: right"
+                />
+              </div>
+            </div>
+            <label for="have">مهاراتي (اللي أقدر أعلّمها)</label>
+            <textarea
+              id="have"
+              required
+              placeholder="مثال: تصميم جرافيك، Python..."
+            ></textarea>
+            <label for="want">عايز أتعلّم</label>
+            <textarea
+              id="want"
+              required
+              placeholder="مثال: تسويق إلكتروني، لغة ألمانية..."
+            ></textarea>
+            <button class="btn btn-primary" type="submit">سجّل الآن</button>
+            <div class="msg" id="msg" role="status"></div>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="section-title reveal">
+            <h2>تواصل معنا</h2>
+            <p>عندك سؤال أو فكرة؟ يسعدنا نسمعك</p>
+            <div class="bar"></div>
+          </div>
+          <div class="contact-list reveal">
+            <a href="mailto:hello@skillmate.example">hello@skillmate.example</a>
+            <a href="tel:+200000000000">+20 000 000 0000</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <b>SkillMate</b> — Learn • Share • Grow<br />© <span id="y"></span> جميع
+        الحقوق محفوظة
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
